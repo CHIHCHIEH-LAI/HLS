@@ -7,7 +7,7 @@ Brief Description of the Function
 	Alternatively, we can view the original matrix as a matrix of blocks.  
 	This naturally leads to many hierarchical algorithms in Linear Algebra where we compute matrix operations,  
 	such as matrix multiply, on large block matrices by decomposing them into smaller matrix operations on the blocks themselves.  
-	To improve the II of the original design from "pp4fpgas", I've added a pipeline directive in the outermost loop in partialsum section and reduced loadA section.  
+	To improve the II of the original design from "pp4fpgas", I've added a pipeline directive in the outermost loop in partialsum section and reduced loadA section. 
 	This results in decreasing II without any extra hardware cost.  
 	For more information of block matrix multiplication, please check the slide in this directory.  
     
