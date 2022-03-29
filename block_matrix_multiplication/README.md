@@ -1,7 +1,3 @@
-Block Matrix Multiplication
-===
-
-
 Brief Description of the Function
 ---
 	A block matrix is interpreted as being partitioned into different submatrices. The resulting "blocks" can be viewed as a matrix of blocks.   
