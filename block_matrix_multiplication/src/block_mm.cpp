@@ -24,6 +24,7 @@ void blockmatmul(hls::stream<blockvec> &Arows, hls::stream<blockvec> &Bcols,
 //    }
 //  }
   DTYPE AB[BLOCK_SIZE][BLOCK_SIZE] = { 0 };
+	#pargma HLS ARRAY_PARTITION variable=AB complete
    partialsum: for(int k=0; k < SIZE; k++) {
  	 #pragma HLS PIPELINE II=1
 	 blockvec tempA = Arows.read();
