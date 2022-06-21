@@ -23,8 +23,4 @@ Result & Analysis
 ---
   Comparing to the original design from "pp4fpgas", my optimized design's total interval is reduced from 197 to 62 without any additional hardware cost.  
     
-  For more results and analysis, please check the slides and the report.  
-
-Question
----
-If you have any question, please don't hesitate to ask me.  
+  For more results and analysis, please check the slides and the report.
