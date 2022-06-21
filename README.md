@@ -1,5 +1,3 @@
 # HLS
 
-Brief Description of Repo
----
-  Vitis HLS Designs
+Vitis HLS Designs
