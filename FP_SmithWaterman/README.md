@@ -46,13 +46,9 @@ FP_SmithWaterman/
 
 ### Requirements
 
-* Ubuntu 18.04, or other GNU/Linux distributions
-* Docker without root
-* Vivado 2020.1 and Vivado 2020.2
-* [PyTorch >= 1.5.0](https://pytorch.org/)
-* [Brevitas >= v0.7.0](https://github.com/Xilinx/brevitas)
-* [FINN v0.7](https://github.com/Xilinx/finn/releases/tag/v0.7)
-* [TUL PYNQ-Z2 development board](https://www.tulembedded.com/FPGA/ProductsPYNQ-Z2.html)
+* Ubuntu 20.04, or other GNU/Linux distributions
+* [Vitis 2020.2](https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html)
+* [Alveo U50 Data Center Accelerator Card](https://www.xilinx.com/products/boards-and-kits/alveo/u50.html), or other Alveo Data Center Accelerator Card
 
 ### Procedure
 
