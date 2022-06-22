@@ -14,6 +14,8 @@ This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and
 
 ### Highlighted Areas of Optimization
 
+#### Find Index of Max Value
+
 ### Results
 
 ## Rebuild the Project
