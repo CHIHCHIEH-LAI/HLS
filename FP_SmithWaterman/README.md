@@ -47,6 +47,8 @@ FP_SmithWaterman/
 |-data/                    # data files used in the project
 |  |-README.md 
 |-impl_result/             # implementation result files, includes makefile, metadata and reports
+|  |  |-report_files/ 
+|  |  |-metadata/
 |-tests/                   # automated test
 |-LICENSE                  # MIT License
 </pre>
