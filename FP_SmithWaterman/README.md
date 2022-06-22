@@ -1,6 +1,6 @@
 # Smith-Waterman Algorithm for Circular RNA Aligner
 
-Accelerate [Smith-Waterman algorithm](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) with Vitis on U50 FPGA. 
+Accelerate [Smith-Waterman algorithm](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) with [Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html) on U50 FPGA. 
 
 ## Introduction
 
