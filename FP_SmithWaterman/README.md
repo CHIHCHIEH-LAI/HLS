@@ -35,7 +35,7 @@ FP_SmithWaterman/
 |  |-Reference/ \
 |  |-Slides/ \
 |  |-Teaching_Materials/ \
-|-src/ \
+|-src/ \                  # source files, include kernel & host codes
 |  |-original/ \
 |  |-optimized/ \
 |-data/ \
