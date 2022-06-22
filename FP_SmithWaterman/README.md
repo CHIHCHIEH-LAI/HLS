@@ -52,10 +52,7 @@ FP_SmithWaterman/
 
 ### Procedure
 
-1. Install Brevitas and replace `brevitas_examples/bnn_pynq/` with `./bnn_pynq/` .
-
-   Follow the instruction in [`./bnn_pynq/README.md`](./bnn_pynq/README.md) to train the `VGG-5` model, \
-   and then move the trained `./bnn_pynq/VGG.onnx` to `./FINN/model.onnx` .
+1. Install Vitis
 
 2. After setting up environment variables for FINN, execute
 
