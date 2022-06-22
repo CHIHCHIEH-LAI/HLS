@@ -54,7 +54,9 @@ FP_SmithWaterman/
 
 1. Install Vitis
 
-2. After setting up environment variables for FINN, execute
+2. After intsalling Vitis, execute
+
+   https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/docs/Teaching_Materials
 
    ```sh
    ./run-docker.sh build_custom Xilinx-HLS/Preprocess_CNN_Pipeline/FINN
