@@ -31,20 +31,24 @@ For more details of optimization, please refer to the [slides](https://github.co
 ## Folder Structure
 <pre>
 FP_SmithWaterman/
-|-README.md                # overview of the project \
-|-build/                   # build scripts – bitstream \
-|-docs/                    # documentation files \
-|  |-Reference/ \
-|  |-Slides/ \
-|  |-Teaching_Materials/ \
-|-src/ \                   # source files, include kernel & host codes
-|  |-original/ \
-|  |-optimized/ \
-|-data/ \                  # data files used in the project
-|  |-README.md \
-|-impl_result/ \           # implementation result files, includes makefile, metadata and reports
-|-tests/ \                 # automated test
-|-LICENSE \                # MIT License
+|-README.md                # overview of the project 
+|-build/                   # build scripts – bitstream 
+|-docs/                    # documentation files 
+|  |-Reference/ 
+|  |-Slides/ 
+|  |-Teaching_Materials/ 
+|-src/                     # source files, include kernel & host codes
+|  |-original/ 
+|  |  |-kernel/ 
+|  |  |-host/
+|  |-optimized/ 
+|  |  |-kernel/ 
+|  |  |-host/
+|-data/                    # data files used in the project
+|  |-README.md 
+|-impl_result/             # implementation result files, includes makefile, metadata and reports
+|-tests/                   # automated test
+|-LICENSE                  # MIT License
 </pre>
    
 ## Build Setup
