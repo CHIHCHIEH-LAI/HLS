@@ -26,6 +26,8 @@ In the original design of Smith-Waterman, N and M parameters in kernel have to b
 ![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/compare.jpg) \
 Although hardware resource, such as LUT and FF, increases roughly 200%, we can see that the optimized design processes datas almost as fast as the original design does by looking at the latency and interval of each components. Also the optimized design can tackle database sequence of any lengths under the circumstance of fixing hardware resource, which is more scalable. Moreover, the optimized design can find the max value index that must be used in backtracking stage.
 
+For more details of optimization, please refer to the [slides](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/docs/Presentation_Slides/Presentation_Slides.pdf)
+
 ## Folder Structure
 <pre>
 FP_SmithWaterman/
