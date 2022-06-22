@@ -23,7 +23,8 @@ The [original design of Smith-Waterman](https://github.com/CHIHCHIEH-LAI/HLS/tre
 In the original design of Smith-Waterman, N and M parameters in kernel have to be the same as query and database sequences. But in real Smith-Waterman applications, sequence lengths are not fixed. Therefore, we let kernel read and process database sequence segmentally by using circular buffer so that kernel can process database of any lengths with fixed hardware resource.
 
 ### Results as Compare with the Original
-
+![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/compare.jpg) \
+Although hardware resource, such as LUT and FF, increases roughly 200%, the optimized design can tackle database sequence of any lengths under the circumstance of fixing hardware resource, which is more scalable. Also, the optimized design can find the max value index that must be used in backtracking stage.
 
 ## Folder Structure
 
