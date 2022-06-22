@@ -56,7 +56,6 @@ FP_SmithWaterman/
 
 2. After intsalling Vitis, execute
 
-   https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/docs/Teaching_Materials
    source Vitis:
    ```sh
    source /opt/Xilinx/Vitis/2020.2/settings64.sh
@@ -69,14 +68,6 @@ FP_SmithWaterman/
    vitis
    ```
 
-3. The deployment package will be generated under \
-   `./FINN/output_vgg_gray_Pynq-Z2/deploy/` .
+3. Build Up and System and Run the Design on FPGA
 
-   If batched top-1 accuracy validation is needed, put \
-   `./FINN/driver/validate.py`, `./FINN/driver/testx_gray.npy`, `./FINN/driver/testy.npy` \
-   into the deployment package.
-
-4. The out-of-context stitched IP will be generated under \
-   `./FINN/output_vgg_gray_Pynq-Z2/stitched_ip/ip/` .
-
-   It can be further used in building customized Composable Pipeline.
+   please follow the instructions of the [teaching materials](https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/docs/Teaching_Materials) step by step to build up the whole system and run on fpga.
