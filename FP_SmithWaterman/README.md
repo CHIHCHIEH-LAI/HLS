@@ -33,6 +33,7 @@ FP_SmithWaterman/
 |-docs/                    # documentation files \
 |&emsp;|-Reference/ \
 |&emsp;|-Slides/ \
+|&emsp;|-Teaching_Materials/ \
 |-src/ \
 |&emsp;|-original/ \
 |&emsp;|-optimized/ \
