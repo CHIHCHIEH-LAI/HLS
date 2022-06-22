@@ -31,7 +31,7 @@ FP_SmithWaterman/
 |-README.md                # overview of the project \
 |-build/                   # build scripts – bitstream \
 |-docs/                    # documentation files \
-|  |-Reference/ \
+|&emsp|-Reference/ \
 |  |-Slides/ \
 |-src/ \
 |  |-original/ \
