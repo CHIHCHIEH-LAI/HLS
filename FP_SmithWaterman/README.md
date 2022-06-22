@@ -10,26 +10,11 @@ The Smith-Waterman algorithm performs local sequence alignment, that is, for det
 ### Project Aim
 This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and aims to make the design scalable for database string size. The system is composed of one software host application (maincl.cpp) and one hardware kernel component (compute_matrices.cpp). The host application ramdonly generates a query and a database sequence and send the two sequences to hardware kernel to calculate direction maxtrix and index of max value. And then the host testifies whether the kernel function results are right or not. The hardware-accelerated kernel implements the Smith-Waterman algorithm on FPGA. We place particular emphasis on the ability to process database string of any lengths effectively, as this would be required to make the design more general and scalable.
 
-### CNN Network
+## Major Optimizations
 
-This `VGG-5` network is similar to [VGG-11](https://pytorch.org/hub/pytorch_vision_vgg/) but with fewer layers and channels.
+### Highlighted Areas of Optimization
 
-|           | Kernel Shape | Padding | Stride | Quantization | Output Shape | Output Channels |
-|-----------|:------------:|:-------:|:------:|:------------:|:------------:|:---------------:|
-|  conv3-64 |      3x3     |    1    |    1   |     INT4     |     32x32    |        64       |
-| maxpool-2 |              |         |        |              |     16x16    |        64       |
-|  conv3-96 |      3x3     |    1    |    1   |     INT3     |     16x16    |        96       |
-| maxpool-2 |              |         |        |              |      8x8     |        96       |
-| conv3-128 |      3x3     |    0    |    1   |     INT3     |      6x6     |       128       |
-| maxpool-2 |              |         |        |              |      3x3     |       128       |
-| conv3-192 |      3x3     |    0    |    1   |     INT4     |      1x1     |       192       |
-|   FC-10   |      1x1     |    0    |    1   |     INT3     |      1x1     |        10       |
-
-### Composable Pipeline
-
-This project simplifies **PYNQ Composable Pipeline v0.9.0** and removes HDMI I/O ports.
-
-<p align="center"><img src="./notebooks/cv-1pr.png" width="450"></p>
+### Results
 
 ## Rebuild the Project
 
