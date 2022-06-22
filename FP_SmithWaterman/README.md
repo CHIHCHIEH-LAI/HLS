@@ -23,6 +23,8 @@ This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and
 
 
 
+
+
 ### Results as Compare with the Original
 
 ## Folder Structure
