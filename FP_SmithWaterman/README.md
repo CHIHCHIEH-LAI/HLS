@@ -22,6 +22,7 @@ This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and
 ![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/scalable.jpg) \
 
 
+
 ### Results as Compare with the Original
 
 ## Folder Structure
