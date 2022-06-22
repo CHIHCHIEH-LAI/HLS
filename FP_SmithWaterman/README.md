@@ -35,14 +35,14 @@ FP_SmithWaterman/
 |  |-Reference/ \
 |  |-Slides/ \
 |  |-Teaching_Materials/ \
-|-src/ \                  # source files, include kernel & host codes
+|-src/ \                   # source files, include kernel & host codes
 |  |-original/ \
 |  |-optimized/ \
-|-data/ \
+|-data/ \                  # data files used in the project
 |  |-README.md \
-|-impl_result/ \
-|-tests/ \
-|-LICENSE \
+|-impl_result/ \           # implementation result files, includes makefile, metadata and reports
+|-tests/ \                 # automated test
+|-LICENSE \                # MIT License
 </pre>
    
 ## Build Setup
