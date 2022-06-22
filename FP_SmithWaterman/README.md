@@ -15,6 +15,8 @@ This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and
 ### Highlighted Areas of Optimization
 
 #### Find Index of Max Value
+![iamge](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/backtracking.jpg)
+When doing backtracking, the host first needs to start from the point with max value and then trace back according to direction matrix. However, the [original design of Smith-Waterman](https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/src/original) does not calculate max value index
 
 ### Results
 
