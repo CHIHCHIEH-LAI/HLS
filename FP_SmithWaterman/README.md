@@ -8,8 +8,7 @@ Propose a scalable design of [Smith-Waterman algorithm](https://en.wikipedia.org
 The Smith-Waterman algorithm performs local sequence alignment, that is, for determining similar regions between two strings of DNA or RNA sequences. Instead of looking at the entire sequence, the Smith-Waterman algorithm compares segments of all possible lengths and optimized the similarity measure. For more information about smith-waterman, please refer to [docs](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/docs) or [wiki](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm).
 
 ### Project Aim
-This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and aims to make the design scalable for database string size.
-The system is composed of one software host application and one hardware kernel component. The host application ramdonly generates a query and a database sequence and send the two sequences to hardware kernel to get direction 
+This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and aims to make the design scalable for database string size. The system is composed of one software host application (maincl.cpp) and one hardware kernel component (compute_matrices.cpp). The host application ramdonly generates a query and a database sequence and send the two sequences to hardware kernel to calculate direction maxtrix and index of max value. And then the host testify whether the kernel function results are right or not. The hardware-accelerated kernel implements the Smith-Waterman algorithm on FPGA. We place particular emphasis on the ability to process database string of any lengths effectively, as this would be required to make the design more general and scalable.
 
 ### CNN Network
 
