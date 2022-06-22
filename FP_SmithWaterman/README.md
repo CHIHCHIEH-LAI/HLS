@@ -66,8 +66,7 @@ FP_SmithWaterman/
    open Vitis in gui:
    ```sh
    vitis
-   ```
-
+   ``` \
 
 3. Build Up and System and Run the Design on FPGA
 
