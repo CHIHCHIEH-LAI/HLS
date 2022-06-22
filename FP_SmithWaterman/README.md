@@ -31,13 +31,13 @@ FP_SmithWaterman/
 |-README.md                # overview of the project \
 |-build/                   # build scripts – bitstream \
 |-docs/                    # documentation files \
-|&emsp|-Reference/ \
-|  |-Slides/ \
+|&emsp;|-Reference/ \
+|&emsp;|-Slides/ \
 |-src/ \
-|  |-original/ \
-|  |-optimized/ \
+|&emsp;|-original/ \
+|&emsp;|-optimized/ \
 |-data/ \
-| |-README.md \
+|&emsp;|-README.md \
 |-impl_result/ \
 |-tests/ \
 |-LICENSE \
