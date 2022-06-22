@@ -20,7 +20,7 @@ The [original design of Smith-Waterman](https://github.com/CHIHCHIEH-LAI/HLS/tre
 
 #### Scalable Design
 ![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/scalable.jpg) \
-In the original design of Smith-Waterman, N and M parameters in kernel have to be the same as query and database sequences. But in real Smith-Waterman applications, sequence lengths are not fixed. Therefore, we let kernel read and process database sequence segmentally by using circular buffer so that kernel can process database of any lengths with fixed hardware resource.
+In the original design of Smith-Waterman, N and M parameters in kernel have to be the same as lengths of query and database sequences. But in real Smith-Waterman applications, sequence lengths are not fixed. Therefore, we let kernel read and process database sequence segmentally by using circular buffer so that kernel can process database of any lengths with fixed hardware resource.
 
 ### Results as Compare with the Original
 ![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/compare.jpg) \
