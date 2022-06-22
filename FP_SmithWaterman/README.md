@@ -28,19 +28,19 @@ Although hardware resource, such as LUT and FF, increases roughly 200%, we can s
 
 ## Folder Structure
 FP_SmithWaterman/
-|-README.md                # overview of the project
-|-build/                   # build scripts – bitstream
-|-docs/                    # documentation files
-|  |-Reference/
-|  |-Slides/
-|-src/
-|  |-original/
-|  |-optimized/
-|-data/
-| |-README.md
-|-impl_result/
-|-tests/
-|-LICENSE
+|-README.md                # overview of the project \
+|-build/                   # build scripts – bitstream \
+|-docs/                    # documentation files \
+|  |-Reference/ \
+|  |-Slides/ \
+|-src/ \
+|  |-original/ \
+|  |-optimized/ \
+|-data/ \
+| |-README.md \
+|-impl_result/ \
+|-tests/ \
+|-LICENSE \
    
 ## Build Setup
 
