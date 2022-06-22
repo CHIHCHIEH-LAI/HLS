@@ -57,12 +57,17 @@ FP_SmithWaterman/
 2. After intsalling Vitis, execute
 
    https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/docs/Teaching_Materials
-
+   source Vitis:
    ```sh
-   ./run-docker.sh build_custom Xilinx-HLS/Preprocess_CNN_Pipeline/FINN
+   source /opt/Xilinx/Vitis/2020.2/settings64.sh
    ```
-
-   under the root directory of FINN to build the CNN IP in advanced build mode.
+   ```sh
+   source /opt/xilinx/xrt/setup.sh
+   ```
+   open Vitis in gui:
+   ```sh
+   vitis
+   ```
 
 3. The deployment package will be generated under \
    `./FINN/output_vgg_gray_Pynq-Z2/deploy/` .
