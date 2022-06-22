@@ -1,12 +1,15 @@
-# Smith-Waterman Algorithm for Circular RNA Aligner
+# A Scalable Smith-Waterman Algorithm Accelerator
 
 Propose a scalable design of [Smith-Waterman algorithm](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm) accelerating on U50 fpga with [Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html). 
 
 ## Introduction
 
-### Dataset
+### Smith-Waterman Algorithm
+The Smith-Waterman algorithm performs local sequence alignment, that is, for determining similar regions between two strings of DNA or RNA sequences. Instead of looking at the entire sequence, the Smith-Waterman algorithm compares segments of all possible lengths and optimized the similarity measure. For more information about smith-waterman, please refer to [docs](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/docs) or [wiki](https://en.wikipedia.org/wiki/Smith%E2%80%93Waterman_algorithm).
 
-[CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html), converted to grayscale with OpenCV
+### Project Aim
+This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and aims to make the design scalable for database string size.
+The system is composed of one software host application and one hardware kernel component. The host application ramdonly generates a query and a database sequence and send the two sequences to hardware kernel to get direction 
 
 ### CNN Network
 
