@@ -14,6 +14,9 @@ This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and
 
 ### Highlighted Areas of Optimization
 
+#### Shift Register
+The original design of shift register version uses shift registers to feed segments of database sequence to systolic array. Nonetheless, the latency of this version is dramatically higher than that of the previous versions.
+
 #### Find Index of Max Value
 ![iamge](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/backtracking.jpg) \
 The [original design of Smith-Waterman](https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/src/original) does not calculate max value index. However, when doing backtracking, the host first needs to start from the point with max value and then trace back according to direction matrix. Thus we add a feature of finding max value index.
