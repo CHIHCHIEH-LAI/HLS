@@ -60,7 +60,7 @@ FP_SmithWaterman/
 +-- data/README.md           # data files used in the project
 +-- impl_result/             # implementation result files, includes makefile, metadata and reports
 |  |  +-- 10-Scalable_design
-|  |  |  +-- metadata/emu_hmss_0_0.hwh
+|  |  |  +-- metadata/hw_handoff.hwh
 |  |  |  +-- report_files/
 |  |  |  |  +-- compute_matrices_csynth.rpt
 |  |  |  |  +-- emulation_sw
