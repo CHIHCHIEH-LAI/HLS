@@ -20,7 +20,7 @@ The original design of shift register version uses shift registers to feed segme
 
 #### Find Index of Max Value
 ![iamge](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/backtracking.jpg) \
-The [original design of Smith-Waterman](https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/src/original) does not calculate max value index. However, when doing backtracking, the host first needs to start from the point with max value and then trace back according to direction matrix. Thus we add a feature of finding max value index.
+The [original design of Smith-Waterman](https://github.com/CHIHCHIEH-LAI/HLS/tree/main/FP_SmithWaterman/src/original) does not support calculating max value index. However, when doing backtracking, the host first needs to start from the point with max value and then trace back according to direction matrix. Thus we add a feature of finding max value index.
 
 #### Scalable Design
 ![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/scalable.jpg) \
