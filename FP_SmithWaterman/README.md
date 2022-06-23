@@ -36,23 +36,36 @@ Although hardware resource, such as LUT and FF, increases roughly 200%, we can s
 <pre>
 FP_SmithWaterman/
 +-- README.md                # overview of the project 
-+-- build/                   # build scripts – bitstream 
++-- build/                   # build scripts
+|  +-- emulation_sw/makefile
+|  +-- emulation_hw/makefile
+|  +-- hardware/makefile
 +-- docs/                    # documentation files 
-|  +-- Reference/ 
-|  +-- Slides/ 
-|  +-- Teaching_Materials/ 
+|  +-- Reference/
+|  |   +-- circFA_report.pdf
+|  |   +-- circFA_a_FPGA-based_circular_RNA_aligner.pdf
+|  +-- Presentation_Slides/Presentation_Slides.pdf
+|  +-- Teaching_Materials/Workbook-Lab3.pdf 
 +-- src/                     # source files, include kernel & host codes
-|  +-- original/ 
-|     +-- kernel/ 
-|     +-- host/
-|  +-- optimized/ 
-|     +-- kernel/ 
-|     +-- host/
-+-- data/                    # data files used in the project
+|  +-- original/
+|  |  +-- README.md
+|  |  +-- 9-Dual_physical_ports/
+|  |  |  +-- kernel/compute_matrices.cpp 
+|  |  |  +-- host/maincl.cpp
+|  +-- optimized/
+|  |  +-- README.md
+|  |  +-- 10-Scalable_design/
+|  |  |  +-- kernel/compute_matrices.cpp 
+|  |  |  +-- host/maincl.cpp
++-- data/README.md           # data files used in the project
 +-- impl_result/             # implementation result files, includes makefile, metadata and reports
-|     +-- report_files/ 
-|     +-- metadata/
-+-- tests/                   # automated test
+|  |  +-- 10-Scalable_design
+|  |  |  +-- report_files/ 
+|  |  |  |  +-- compute_matrices_csynth.rpt
+|  |  |  |  +-- xrt_emulationSW.run_summary
+|  |  |  |  +-- xrt_hardware.run_summary
+|  |  |  +-- metadata/emu_hmss_0_0.hwh
++-- tests/README.md          # automated test
 +-- LICENSE                  # MIT License
 </pre>
    
