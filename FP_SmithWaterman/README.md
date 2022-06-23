@@ -66,7 +66,7 @@ FP_SmithWaterman/
 
 ### Procedure
 
-1. Install Vitis
+1. Install [Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html)
 
 2. After intsalling Vitis, execute
 
