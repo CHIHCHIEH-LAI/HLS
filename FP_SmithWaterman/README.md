@@ -16,7 +16,7 @@ This project accelerates the Smith-Waterman algorithm on U50 fpga with Vitis and
 
 #### Shift Register
 ![image](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/compare_shiftReg.jpg)
-The original design of shift register version uses shift registers to feed segments of database sequence to systolic array. Nonetheless, the latency of this version is dramatically higher than that of the previous versions, as shown in the figure of hls synthesis report above.
+The original design of shift register version uses shift registers to feed segments of database sequence to systolic array. Nonetheless, the latency of this version is dramatically higher than that of the previous versions, as shown in the figure of hls synthesis report above. The hls report shows that there is a II violation under update_database component. This violation is caused by a conflict between the two pipeline pragmas under the higher level (num_diag_for) and the lower level (update_database). To fix this violation, we comment out the pipeline pragma under update_database and let the upper pipeline pragma unroll the lower levels of components. This change increases the parallelism of the design of shift register version and thus decreases the latency, as we can see in the figure above.
 
 #### Find Index of Max Value
 ![iamge](https://github.com/CHIHCHIEH-LAI/HLS/blob/main/FP_SmithWaterman/imgs/backtracking.jpg) \
