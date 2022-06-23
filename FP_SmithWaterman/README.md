@@ -42,8 +42,8 @@ FP_SmithWaterman/
 |  +-- hardware/makefile
 +-- docs/                    # documentation files 
 |  +-- Reference/
-|  |   +-- circFA_report.pdf
-|  |   +-- circFA_a_FPGA-based_circular_RNA_aligner.pdf
+|  |  +-- circFA_report.pdf
+|  |  +-- circFA_a_FPGA-based_circular_RNA_aligner.pdf
 |  +-- Presentation_Slides/Presentation_Slides.pdf
 |  +-- Teaching_Materials/Workbook-Lab3.pdf 
 +-- src/                     # source files, include kernel & host codes
@@ -60,11 +60,17 @@ FP_SmithWaterman/
 +-- data/README.md           # data files used in the project
 +-- impl_result/             # implementation result files, includes makefile, metadata and reports
 |  |  +-- 10-Scalable_design
-|  |  |  +-- report_files/ 
-|  |  |  |  +-- compute_matrices_csynth.rpt
-|  |  |  |  +-- xrt_emulationSW.run_summary
-|  |  |  |  +-- xrt_hardware.run_summary
 |  |  |  +-- metadata/emu_hmss_0_0.hwh
+|  |  |  +-- report_files/
+|  |  |  |  +-- compute_matrices_csynth.rpt
+|  |  |  |  +-- emulation_sw
+|  |  |  |  |  +-- opencl_trace.csv
+|  |  |  |  |  +-- summary.csv
+|  |  |  |  |  +-- xrt.run_summary
+|  |  |  |  +-- hardware
+|  |  |  |  |  +-- opencl_trace.csv
+|  |  |  |  |  +-- summary.csv
+|  |  |  |  |  +-- xrt.run_summary
 +-- tests/README.md          # automated test
 +-- LICENSE                  # MIT License
 </pre>
