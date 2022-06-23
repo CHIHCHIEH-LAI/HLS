@@ -47,7 +47,7 @@ FP_SmithWaterman/
 |  +-- Presentation_Slides/Presentation_Slides.pdf
 |  +-- Teaching_Materials/Workbook-Lab3.pdf 
 +-- src/                     # source files, include kernel & host codes
-|  +-- original/
+|  +-- original/             # original code from open source project
 |  |  +-- README.md
 |  |  +-- 9-Dual_physical_ports/
 |  |  |  +-- kernel/compute_matrices.cpp 
@@ -75,7 +75,7 @@ FP_SmithWaterman/
 +-- LICENSE                  # MIT License
 </pre>
    
-## Build Setup
+## Build Setup & Run Test
 
 ### Requirements
 
